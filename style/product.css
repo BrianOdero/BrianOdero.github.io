@@ -1,0 +1,61 @@
+h1{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    color:black;
+}
+
+.products{
+    margin: 0;
+    background-color: whitesmoke;
+    height: 400px;
+    padding: 10px;
+}
+.products p{
+    color: black;
+    display: flex;
+    
+}
+.products a{
+    text-decoration: none;
+}
+body{
+    margin: 0 0;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+}
+.service{
+    background-color: lightgray;
+    flex: 1;
+    display: block;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 20px;
+}
+.service:hover{
+    background-color: limegreen;
+}
+.provided{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    flex: 1;
+}
+.img img{
+    border-radius: 10px;
+    vertical-align: middle;
+}
+.provided a{
+    flex: 3;
+}
+@media only screen and (max-width:768px){
+    .products{
+        display: block;
+    }
+}

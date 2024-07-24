@@ -1,0 +1,488 @@
+
+
+p,a,h1,h2,h3,h4,h5,h6 {
+  font-family: "Quicksand";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+li{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+
+p{
+  margin: 1rem;
+}
+ul{
+  margin: 0;
+}
+
+
+/*nav*/
+body{
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  width: 100%;
+  overflow-x: hidden;
+}
+nav {
+
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #7be969;
+}
+nav img {
+  padding: 5px;
+  height: 50px;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin-right: 15px;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  margin: 15px 15px;
+}
+
+/* Font Awesome for the dropdown icon (optional) */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  display: flex;
+  align-items: center; /* Align text and icon vertically */
+}
+
+nav a:hover {
+  background-color: lightslategray;
+  transition: ease-in-out 1s;
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightslategray;
+  min-width: 100px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  transition: step-end 1s;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+
+.dropdown-content a {
+  color: white;
+}
+
+.dropdown > a {
+  margin-left: 5px; /* Add space between link text and icon */
+  transition: transform 0.2s ease-in-out; /* Add smooth transition for icon */
+}
+
+.dropdown.enterprise .nested-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #68F252;
+  min-width: 150px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 11; /* Set higher z-index to display above main dropdown */
+  left: 0; /* Position on the left side of the link */
+  top: 100%; /* Displayed below the link on hover */
+  transition: all 0.2s ease-in-out; /* Add smooth transition */
+}
+
+.nested-dropdown {
+  display: none;
+}
+
+.nested-dropdown.show {
+  display: block;
+}
+
+.nested-dropdown a {
+  color: #000;
+  padding: 5px 10px; /* Adjust padding for nested items */
+}
+
+.dropdown > a {
+  margin-left: 5px; /* Add space between link text and icon */
+  transition: transform 0.2s ease-in-out; /* Add smooth transition for icon */
+}
+
+
+/*main component*/
+
+main {
+  font-size: medium;
+}
+
+
+
+/*buttons*/
+
+.btn{
+  align-self: center;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  min-width: 200px;
+  height: 30px;
+  font-size: 14px;
+  background-color: #edc910;
+  font-weight: 500;
+  color: #222;
+  margin: 10px;
+}
+
+a .btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+/*for all lists*/
+.solns{
+  margin: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style:square; 
+  font-family: "Quicksand";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.solns li{
+  margin: 5px 0rem;
+  
+}
+
+/*footer*/
+.footer{
+  margin-top: 20px;
+  padding: 25px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+.footer::after{
+  content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.4);
+    background-image: url(../assets/imgs/Black\ Background\,\ Photos\,\ and\ Wallpaper\ for\ Free\ Download\ _\ page\ 2.jpeg);
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    z-index: -1; 
+}
+footer p{
+  color: whitesmoke;
+}
+footer li{
+  color: whitesmoke;
+}
+footer a{
+  color: whitesmoke;
+}
+.footertab{
+  display: flex;
+  flex-direction: row;
+}
+.level{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 5px;
+  width: 100%;
+}
+.level p{
+    
+    display: flex;
+    padding-left: 30px;
+    
+}
+.location img{
+  border-radius: 20px;
+}
+.socials{
+  display: block;
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+}
+.socialMediaIcon img{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.location{
+  flex: 1;
+}
+.email{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+form{
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+form button{
+  width: 15%;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.footertab2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*FOR MODIFYING LAYOUT IN SMALLER DEVICES*/
+@media only screen and (max-width:768px){
+  nav{
+    display: flex;
+    
+    width: 100%;
+  }
+  
+  
+  nav div{
+    flex: 1;
+  }
+  nav div img{
+    height: 50px;
+    width: 50%;
+  }
+  
+  .inner2 img{
+    width: 90%;
+    height: 90%;
+    margin: auto 0;
+    margin-top: 10px;
+  }
+  .welcomeSec{
+    display: block;
+  }
+  .ourProducts{
+   display: block;
+  }
+  .companyInfo{
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .companyInfo .info{
+    width: 70%;
+  }
+  .WAWsecInner, .SOLInner, .companyInfo , .footertab, .footertab2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .WhatWeDo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .WhatWeDo .service{
+    width: 80%;
+  }
+  .WAWsecInner .inner1{
+    margin: 0;
+  }
+  .WAWsecInner .inner2{
+    margin-top: -10%;
+  }
+  .SOLInner .inner1 img{
+    width: 100%;
+    margin: 0;
+  }
+  .contactBody{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .detailInner{
+    width: 70%;
+  }
+  
+  .location{
+    display: flex;
+    flex-direction: row;
+  }.location img{
+    margin: auto 0;
+  }
+  .location .frame{
+    flex: 1;
+  }
+  .location .frame p{
+    display: flex;
+    align-items: flex-start;
+  }
+  .services{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto
+  }
+  .outerDiv{
+    display: block;
+  }
+  .contactHeader,.contactBody,.footer,.footer::after,.footertab,.footertab2{
+    padding: 10px;
+  }.media,.forms{
+    flex: 1;
+  }
+  nav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    width: 100%;
+}
+
+nav ul {
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+}
+
+nav ul li {
+    margin: 5px 0;
+    width: 100%;
+}
+
+nav img {
+    width: 50px;
+}
+
+.contactHeader {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.contactBody {
+  display: flex;
+  flex: 1;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+}
+
+.media, .forms {
+    width: 100%;
+    padding: 10px;
+}
+
+.media .sec {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.media .sec img {
+    width: 50px;
+    height: 50px;
+    margin: 5px 0;
+}
+
+.forms form {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.forms form input, .forms form select, .forms form button {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.footertab, .footertab2 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.level {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+/**/
+
+.ent.ent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/*REG COMPLIANCE*/
+.telecom{
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+
+

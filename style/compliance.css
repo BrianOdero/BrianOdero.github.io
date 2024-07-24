@@ -1,0 +1,137 @@
+.GoAML{
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.GoAML ::after{
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.4);
+
+    background-image: url(../assets/imgs/aml3.jpeg);
+    background-size: 100vw;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    z-index: -1; 
+}
+.GoAML div{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(1.0);
+
+}
+.GoAML div h3{
+    color: white;
+    mix-blend-mode: normal;
+}
+.GoAML div p{
+    color: white;
+    mix-blend-mode: normal;
+
+}
+.GoAML .inner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+
+.FCM{
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.FCM ::after{
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.4);
+
+    background-image: url(../assets/imgs/FCM.jpeg);
+    background-size: 100vw;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    z-index: -1; 
+}
+.FCM div{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(1.0);
+
+}
+.FCM div h3{
+    color: white;
+    mix-blend-mode: normal;
+}
+.FCM div p{
+    color: white;
+    mix-blend-mode: normal;
+
+}
+.FCM .inner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*COMPLIANCE PAGE*/
+
+
+
+.indian{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.indianInner{
+    display: flex;
+    flex-direction: row;
+}
+.indian .inner1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.indian .inner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.indian .inner2 img{
+    vertical-align: middle;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 80px;
+    vertical-align: middle;
+    border-radius: 30px;
+    height: 400px;
+    width: 400px;   
+    box-shadow: none; 
+}
+.indian h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}

@@ -1,0 +1,74 @@
+.body{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.query{
+    width: 100%;
+    color: white;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.query::after{
+    border-radius: 20px;
+    content: "";
+    background-repeat: no-repeat;
+    filter: blur(0.6);
+    filter: brightness(0.6);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.query label{
+    margin: 10px 0px;
+    align-self: center;
+    color: black;
+}
+.query input{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: transparent;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid;
+    border-color: white;
+    margin: 10px 0px;
+    border-radius: unset;
+}
+.query select{
+    width: 50%;
+    height: 25px;
+    margin: 10px 0px;
+    align-self: center;
+}
+
+.query .btn{
+    outline: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  min-width: 50%;
+  height: 30px;
+  font-size: 14px;
+  background-color: #edc910;
+  font-weight: 500;
+  color: #222;
+  margin: 10px;
+}
+.query header{
+    align-self: center;
+    margin-bottom: 15px;
+}

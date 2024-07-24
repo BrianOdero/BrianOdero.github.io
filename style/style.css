@@ -1,0 +1,609 @@
+
+.welcomeSec{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    background: rgb(40, 40, 43);
+    padding: 10px;
+}
+
+.welcomeSec div{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(1.0);
+
+}
+.welcomeSec div h1,.welcomeSec div h2,.welcomeSec div h3{
+    color: white;
+    mix-blend-mode: normal;
+    margin: 1rem;
+}
+.welcomeSec div p{
+    color: white;
+    mix-blend-mode: normal;
+
+}
+.welcomeSec .inner{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem;
+}
+
+
+/*WAWSec*/
+.WAWsec{
+    margin-top: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.WAWsecInner{
+    display: flex;
+    flex-direction: row;
+}
+.inner1{
+
+    border-radius: 20px;
+    padding-inline-start: 10PX;
+    background-color: whitesmoke;
+    z-index: 10;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: fit-content; 
+}
+.inner1 p{
+    align-self: flex-start;
+    margin-left: 3rem;
+}
+.inner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    z-index: 5;
+}
+.inner2 img{
+    padding: 10px;
+    margin-right: 10%;
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;    
+}
+.WAWsec h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+/*OUR PRODUCTS SECTION*/
+.productDiv{
+    display: flex;
+    flex-direction: column;
+}
+.ourProducts{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.ourProducts h1,h2{
+    align-self: center;
+}
+.productDiv p{
+    margin: 0 4rem;
+    font-weight: bolder;
+}
+.productDiv hr{
+    border: 1px solid black;
+}
+.ourProducts p{
+    font-weight: unset;
+}
+.innerProducts{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 10px;
+}
+.innerProducts h2{
+    align-self: center;
+}
+.innerProducts img{
+    margin-top: 10px;
+    height: 300px;
+    width: 80%;
+    border-radius: 10px;
+    align-self: center;
+}
+.innerProducts a{
+    align-self: center;
+    margin-top: 10px;
+}
+.innerProducts p{
+    margin: 10px 40px;
+    align-self: center;
+}
+
+/*SOLNS*/
+.SOL{
+    background-color: whitesmoke;
+    justify-content: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.SOL div{
+    padding: 10px;
+    
+
+}
+.SOLInner{
+    background-color: whitesmoke;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 20px;
+    margin-block: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+    width: 75%;
+
+}
+.inner1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner1 img{
+    
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+.inner2{
+    flex: 1;
+}
+
+
+.SOL h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+
+/*solnsSec*/
+.solnsSec{
+    
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.solnDiv{
+    margin: 0;
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    background-color: #d3ebe9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.divInner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*companyInfo*/
+.companyInfo{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+.companyInfo .info p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    margin: 1rem;
+    padding: 10px;
+}
+
+
+/*TELECOMMUNICATION SOLUTION*/
+
+.telecommunication{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.telecommunication h1{
+    align-self: center;
+}
+.telecom{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.telecom div{
+    
+    flex: 1;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 20px;  
+}
+.div{
+    background-color: white;
+}
+.divTel{
+    min-height: 100px;
+    min-height: 100px;
+    display: flex;
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+    
+}
+.divTel p{
+    align-self: center;
+}
+.divTel a{
+    text-decoration: none;
+    color: black;
+}
+
+.telecom div img{
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+.telecommunication h3{
+    align-self: center;
+}
+
+
+/*ENTERPRISE SOLUTION PAGE*/
+.entSec{
+    display: flex;
+    flex-direction: column;
+}
+.entSec h1{
+    margin: 20px auto;
+}
+.ent{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.ents{
+    margin: 10px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.ents div{
+    margin: 10px;
+    flex: 1;
+}
+.ents div{
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+}
+.ents a{
+    text-decoration: none;
+    color: black;
+}
+.entSec h3{
+    align-self: center;
+}
+
+/*RESOURCE OUTSOURCE SOLUTIONS PAGE*/
+
+.resourceOutsourcing{
+    border: 1px solid;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.resourceOutsourcing h1{
+    align-self: center;
+}
+.resource{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.resource div{
+    
+    flex: 1;
+    margin: 10px;
+    justify-content: center;
+    background-color: #ebf0f7;
+    border-radius: 20px;  
+}
+.divRes{
+    height: 200px;  
+    display: flex;
+}
+.divRes p{
+    align-self: center;
+}
+
+.resource div img{
+    display: flex;
+    margin: 0 auto;
+    height: 90%;
+    width: 100%;
+}
+.resourceOutsourcing h3{
+    align-self: center;
+}
+
+/*EKYC PAGE*/
+
+.detailSec{
+    display: flex;
+    flex-direction: column;
+}
+.outer{
+    display: flex;
+    flex-direction: row;
+}
+.detailInner{
+    flex: 1;
+    padding: 20px;
+}
+.body{
+    flex: 1;
+}
+.detailInner p{
+    margin-left: 15px;
+}
+/*TEMENOS PAGE*/
+
+.detailSec{
+
+    display: flex;
+    flex-direction: column;
+}
+.outer{
+    display: flex;
+    flex-direction: row;
+}
+.detailInner{
+    flex: 1;
+    padding: 20px;
+}
+.body{
+    flex: 1;
+}
+.detailInner p{
+    margin-left: 1rem;
+}
+li{
+    margin: 0;
+}
+
+/*BUSINESS INTELLIGENCE PAGE*/
+.detailSec{
+    display: flex;
+    flex-direction: column;
+}
+.outer{
+    display: flex;
+    flex-direction: row;
+}
+.detailInner{
+    flex: 1;
+    padding: 20px;
+}
+.body{
+    flex: 1;
+}
+
+ /*BDG DATA SOLUTION*/
+ 
+.detailSec{
+    display: flex;
+    flex-direction: column;
+}
+.outer{
+    display: flex;
+    flex-direction: row;
+}
+.detailInner{
+    flex: 1;
+    padding: 20px;
+}
+.body{
+    flex: 1;
+}
+.detailInner p{
+    margin-left: 15px;
+}
+
+/*APPLICATION AND NETWORK SECURITY*/
+
+.detailSec{
+    display: flex;
+    flex-direction: column;
+}
+.outer{
+    display: flex;
+    flex-direction: row;
+}
+.detailInner{
+    flex: 1;
+    padding: 20px;
+}
+.body{
+    flex: 1;
+}
+.detailInner p{
+    margin-left: 15px;
+}
+
+/*SAP page*/
+
+.detailSec{
+    display: flex;
+    flex-direction: column;
+}
+.outer{
+    display: flex;
+    flex-direction: row;
+}
+.detailInner{
+    flex: 1;
+    padding: 20px;
+}
+.body{
+    flex: 1;
+    border: none;
+}
+.detailInner p{
+    margin-left: 15px;
+}
+/*CONTACT US PAGE*/
+.contactHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.contactHeader h1{
+    flex: 1;
+}
+.contactHeader p{
+    flex: 1;
+}
+.contactBody{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+    box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.75);
+    margin: 15px;
+
+}
+.forms{
+    flex: 1;
+}
+.media{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    border-radius: 20px;
+}
+.sec{
+    flex:1;
+    padding: 5px  30px;
+    
+}
+.innersec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}.innersec img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.innersec p{
+    justify-content: center;
+    align-self: center;
+    margin-left: 30px;
+}
+/*ABOUT US PAGE */
+.missionAndVision{
+    display: flex;
+    flex-direction: column;
+}
+.innerDiv{
+    
+    flex: 1;
+    vertical-align: middle;
+}
+
+.innerDiv .detail{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.outerDiv{
+    display: flex;
+    flex-direction: row;
+}
+.WhatWeDoSec h1,.WhatWeDoSec h3{
+    display: flex;
+    align-self: center;
+    justify-content: center
+}
+.WhatWeDo{
+    display: flex;
+    flex-direction: row;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
+}
+.service h3,.service p{
+    align-items: center;
+    align-self: center;
+}
+.service h3{
+    margin: 10px auto;
+}
+
