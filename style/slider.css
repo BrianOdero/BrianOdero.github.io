@@ -100,7 +100,8 @@
 .nextPrevArrows{
     position: absolute;
     top: 88%;
-    right: 52%;
+    right: 0;
+    bottom: 14%;
     z-index: 100;
     width: 300px;
     max-width: 30%;
