@@ -44,4 +44,4 @@ function moveSlider(direction) {
 // Automatically move the slider every 5 seconds
 setInterval(function() {
     moveSlider('next');
-}, 5000);
+}, 10000);
