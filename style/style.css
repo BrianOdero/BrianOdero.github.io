@@ -366,8 +366,9 @@
     height: 200px;  
     display: flex;
 }
-.divRes p{
+.divRes a{
     align-self: center;
+    color: black;
 }
 
 .resource div img{
