@@ -6,7 +6,7 @@ import { FaLocationArrow } from 'react-icons/fa'
 const RecentProjects = () => {
   return (
     <div className='py-20' id = "projects">
-        <h1 className="text-4xl font-bold text-center">
+        <h1 className="text-4xl font-bold text-center mb-20">
             A small selection of {''}
             <span className='text-purple-300'>
                 recent projects
@@ -14,10 +14,10 @@ const RecentProjects = () => {
         </h1>
 
         {/**for showing the project cards*/}
-        <div className = "flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+        <div className = "flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 ">
             {projects.map(({id, title, des, img, iconLists, link}) => (
                 
-                <div key={id} className='lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
+                <div key={id} className='lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-[570px] w-[80vw] my-30'>
                     <PinContainer title={link} href={link}>
                         <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10'>
                             <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
@@ -39,7 +39,7 @@ const RecentProjects = () => {
                         <div className='flex items-center justify-between mt-7 mb-3'>
                             <div className='flex items-center'>
                                 {iconLists.map((icon,index) => (
-                                    <div 
+                                    <div key={icon}
                                         className='border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 h-8 w-8 flex justify-between items-center'
                                         style={{
                                             transform: `translateX(-${5 * index *2}px)`

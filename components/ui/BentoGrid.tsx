@@ -10,6 +10,7 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import dynamic from "next/dynamic"
 
 export const BentoGrid = ({
   className,
@@ -56,8 +57,13 @@ export const BentoGridItem = ({
     {/**copying the email */}
     navigator.clipboard.writeText("brianodero7537@gmail.com");
     setCopied(true);
-
   }
+
+
+  const LottiePlayer: any = dynamic(() => import("@/components/LottiePlayer.tsx" as any), {
+    ssr: false,
+  })
+
   return (
     <div
       className={cn(
@@ -144,14 +150,7 @@ export const BentoGridItem = ({
         {id === 6 && (
           <div className = "mt-5 relative">
             <div className = {`absolute -bottom-5 right-0`}>
-              <Lottie options={{
-                loop: copied, 
-                autoplay: copied,
-                animationData,
-                rendererSettings: {
-                  preserveAspectRatio: 'xMidYMid slice'
-                }
-              }}/>
+              
             </div>
 
             <MagicButton 
