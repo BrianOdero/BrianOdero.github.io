@@ -18,7 +18,7 @@ function Hero() {
 
       {/*grid animation*/}
       <div className="flex h-[50rem] w-full items-center justify-center bg-white dark:bg-[#000319] top-0 left-0 absolute">
-        <div
+        {/* <div
          className={cn(
           "absolute inset-0",
           "[background-size:40px_40px]",
@@ -26,7 +26,9 @@ function Hero() {
           "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]",
         )}/>
         {/* Radial gradient for the container to give a faded look */}
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-[#000319]"></div>
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-[#000319]"></div> 
+
+        {/**The above part is for showing the grids in the hero section */}
         
       </div>  
 
@@ -50,7 +52,7 @@ function Hero() {
             {/** magic button leading to my works page */}
             <a href="">
               <MagicButton 
-                title='Show My Latest Work' 
+                title='Download my resume' 
                 icon = {<FaLocationArrow/>}
                 position='right'
                 />
